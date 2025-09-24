@@ -1,0 +1,7 @@
+# Ignore Cargo build output for all projects
+compoundDataTypes/target/
+helloProject/target/
+primatives/target/
+
+# Also ignore any nested target directories just in case
+**/target/
